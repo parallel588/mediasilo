@@ -23,6 +23,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rspec', '~> 2.13.0'
   spec.add_development_dependency "vcr", "~> 2.4.0"
   spec.add_development_dependency "webmock", "~> 1.11.0"
+  spec.add_development_dependency "pry"
 
   spec.add_runtime_dependency "weary", "~> 1.1.3"
   spec.add_dependency 'multi_xml', "~> 0.5.1"
